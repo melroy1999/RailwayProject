@@ -1,0 +1,26 @@
+.JFXButton{
+   -fx-background-color: #013696;
+    -fx-background-radius: 22;
+    -fx-font-weight:Bold;
+    -fx-text-fill:white;
+    -fx-font-size:24;
+  
+   
+  -fx-button-size:23;
+   
+}
+
+.JFXButton:hover{
+    -fx-background-color: white;
+    -fx-background-radius: 22;
+    -fx-font-weight:Bold;
+    -fx-text-fill:#03a5fc;
+    -fx-font-size:20;
+    -fx-border-radius: 20;
+    -fx-border-width: 5;
+    -fx-border-color: #03a5fc;
+    -fx-button-size:29;
+    -webkit-transition-duration: 0.4s;  
+  transition-duration: 0.4s;
+}
+

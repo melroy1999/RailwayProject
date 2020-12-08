@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="881.0" prefWidth="1315.0" stylesheets="@Mycss2.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="railwayproject.Page7Controller">
+   <children>
+      <ImageView fitHeight="876.0" fitWidth="1375.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@slider-narrandera-02.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="84.0" layoutY="86.0" prefHeight="760.0" prefWidth="1192.0" style="-fx-background-color: white;" AnchorPane.rightAnchor="66.0">
+         <children>
+            <ImageView fitHeight="773.0" fitWidth="1194.0" layoutX="1.0" opacity="0.19" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@slider-narrandera-02.jpg" />
+               </image></ImageView>
+            <ImageView fx:id="image1" fitHeight="355.0" fitWidth="524.0" layoutX="468.0" layoutY="409.0" pickOnBounds="true" preserveRatio="true" visible="false" AnchorPane.rightAnchor="125.0">
+               <image>
+                  <Image url="@ac1(1).jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="image1a" fitHeight="363.0" fitWidth="479.0" layoutX="467.0" layoutY="42.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true" visible="false" AnchorPane.leftAnchor="547.0">
+               <image>
+                  <Image url="@ac1.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="image2" fitHeight="344.0" fitWidth="519.0" layoutX="440.0" layoutY="431.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@ac2(1).jpg" />
+               </image>
+            </ImageView>
+            <VBox layoutX="27.0" layoutY="80.0" prefHeight="620.0" prefWidth="354.0" spacing="40.0" styleClass="Vbox" stylesheets="@Mycss2.css">
+               <children>
+                  <JFXButton onAction="#A" onMouseEntered="#on1ac" onMouseExited="#of1ac" prefHeight="131.0" prefWidth="331.0" styleClass="JFXButton" text="1AC TIER">
+                     <font>
+                        <Font name="System Bold" size="35.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton onAction="#B" onMouseEntered="#onnn" onMouseExited="#offf" prefHeight="125.0" prefWidth="324.0" styleClass="JFXButton" text="2AC TIER">
+                     <font>
+                        <Font name="System Bold" size="35.0" />
+                     </font>
+                     <effect>
+                        <DropShadow height="0.0" radius="9.6925" width="40.77" />
+                     </effect>
+                  </JFXButton>
+                  <JFXButton onAction="#C" onMouseEntered="#onsleep" onMouseExited="#ofsleep" prefHeight="144.0" prefWidth="333.0" styleClass="JFXButton" text="NON AC SLEEPER ">
+                     <font>
+                        <Font name="System Bold" size="27.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </JFXButton>
+               </children>
+               <padding>
+                  <Insets bottom="50.0" top="50.0" />
+               </padding>
+            </VBox>
+            <ImageView fx:id="image2a" fitHeight="363.0" fitWidth="479.0" layoutX="477.0" layoutY="52.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@ac2.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="sleepera" fitHeight="343.0" fitWidth="552.0" layoutX="413.0" layoutY="55.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@sleeper.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="sleeper" fitHeight="425.0" fitWidth="598.0" layoutX="469.0" layoutY="463.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@sleeper(1).jpg" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+   </children>
+</AnchorPane>

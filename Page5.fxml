@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="786.0" prefWidth="303.0" style="-fx-background-color: #614252;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="railwayproject.Page5Controller">
+   <children>
+      <JFXButton accessibleText="box1" onAction="#A" opacity="0.7" prefHeight="140.0" prefWidth="337.0" ripplerFill="#b2b2b2" styleClass="JFXButton" stylesheets="@mycss.css" text="BOOK TICKET" textFill="#ebe5e5">
+         <font>
+            <Font name="Arial Black" size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton accessibleText="box2" onAction="#B" opacity="0.7" prefHeight="140.0" prefWidth="337.0" ripplerFill="#b2b2b2" styleClass="JFXButton" stylesheets="@mycss.css" text="CANCEL TICKET" textFill="#ebe5e5">
+         <font>
+            <Font name="Arial Black" size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton accessibleText="box3" onAction="#C" opacity="0.7" prefHeight="140.0" prefWidth="337.0" ripplerFill="#b2b2b2" styleClass="JFXButton" stylesheets="@mycss.css" text="CHECK PNR STATUS" textFill="#ebe5e5">
+         <font>
+            <Font name="Arial Black" size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton accessibleText="box4" onAction="#D" opacity="0.7" prefHeight="140.0" prefWidth="337.0" ripplerFill="#b2b2b2" styleClass="JFXButton" stylesheets="@mycss.css" text="TRAIN SCHEDULE" textFill="#ebe5e5">
+         <font>
+            <Font name="Arial Black" size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton accessibleText="box5" onAction="#E" opacity="0.7" prefHeight="140.0" prefWidth="337.0" ripplerFill="#b2b2b2" styleClass="JFXButton" stylesheets="@mycss.css" text="LIVE TRACKING" textFill="#ebe5e5">
+         <font>
+            <Font name="Arial Black" size="17.0" />
+         </font>
+      </JFXButton>
+   </children>
+</VBox>

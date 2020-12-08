@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="786.0" prefWidth="1366.0" style="-fx-background-color: blue;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="railwayproject.Admin4Controller">
+   <children>
+      <AnchorPane layoutY="146.0" prefHeight="644.0" prefWidth="1366.0" style="-fx-background-color: white;">
+         <children>
+            <JFXTextField fx:id="sid" layoutX="196.0" layoutY="183.0" prefHeight="57.0" prefWidth="255.0" promptText="Enter Station_id">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="at" layoutX="912.0" layoutY="323.0" prefHeight="57.0" prefWidth="255.0" promptText="Enter Arrival_time">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="tid" layoutX="905.0" layoutY="176.0" prefHeight="57.0" prefWidth="255.0" promptText="Enter train_id">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="dt" layoutX="206.0" layoutY="331.0" prefHeight="57.0" prefWidth="255.0" promptText="Enter Departure_time">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXTextField>
+            <Label layoutX="182.0" layoutY="87.0" prefHeight="59.0" prefWidth="300.0" text="Add/Delete Routes">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <JFXButton layoutX="260.0" layoutY="515.0" onAction="#B" prefHeight="73.0" prefWidth="234.0" text="INSERT">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXButton>
+            <JFXButton layoutX="904.0" layoutY="517.0" onAction="#C" prefHeight="73.0" prefWidth="234.0" text="DELETE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXButton>
+            <JFXTextField fx:id="ac1" layoutX="189.0" layoutY="433.0" prefHeight="57.0" prefWidth="255.0" promptText="Enter 1AC Fare">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="ac2" layoutX="581.0" layoutY="427.0" prefHeight="57.0" prefWidth="255.0" promptText="Enter 2AC_FARE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="nonac" layoutX="923.0" layoutY="411.0" prefHeight="57.0" prefWidth="255.0" promptText="Enter NON_AC_SLEEPER_FARE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXTextField>
+         </children>
+      </AnchorPane>
+      <JFXButton layoutX="-2.0" layoutY="-1.0" onAction="#A" prefHeight="146.0" prefWidth="166.0" text="&lt;&lt;--">
+         <font>
+            <Font name="System Bold" size="40.0" />
+         </font>
+      </JFXButton>
+      <Label layoutX="458.0" layoutY="58.0" text="NEW ROUTES">
+         <font>
+            <Font name="Andalus" size="60.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

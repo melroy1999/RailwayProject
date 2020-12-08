@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXRadioButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.GaussianBlur?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="772.0" prefWidth="1362.0" stylesheets="@page8.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="railwayproject.Page8Controller">
+   <children>
+      <ImageView fitHeight="765.0" fitWidth="1380.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@railway_train_mountains_winter_118617_1366x768.jpg" />
+         </image>
+         <effect>
+            <GaussianBlur />
+         </effect>
+      </ImageView>
+      <AnchorPane layoutX="253.0" layoutY="128.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="499.0" prefWidth="881.0" style="-fx-background-color: black;" stylesheets="@page8.css">
+         <children>
+            <ImageView fitHeight="509.0" fitWidth="881.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@railway_train_mountains_winter_118617_1366x768.jpg" />
+               </image>
+               <effect>
+                  <DropShadow height="154.43" radius="87.83500000000001" width="198.91" />
+               </effect>
+            </ImageView>
+            <Label layoutX="477.0" layoutY="32.0" text="Enter your Details:" textFill="#fcfcfc">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="33.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="name" focusColor="#3f69e4" layoutX="511.0" layoutY="151.0" prefHeight="38.0" prefWidth="253.0" promptText="Enter your name" style="-fx-text-inner-color: white; -fx-prompt-text-fill: white;" unFocusColor="#f5efef" AnchorPane.leftAnchor="511.0">
+               <font>
+                  <Font size="20.0" />
+               </font></JFXTextField>
+            <Label layoutX="462.0" layoutY="90.0" prefHeight="49.0" prefWidth="138.0" text="Name" AnchorPane.leftAnchor="451.0" AnchorPane.rightAnchor="770.0">
+               <font>
+                  <Font name="Times New Roman Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="451.0" layoutY="173.0" prefHeight="49.0" prefWidth="138.0" text="Phone" AnchorPane.leftAnchor="451.0" AnchorPane.rightAnchor="770.0">
+               <font>
+                  <Font name="Times New Roman Bold" size="18.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="phone" focusColor="#6082e8" layoutX="511.0" layoutY="225.0" prefHeight="38.0" prefWidth="253.0" promptText="Enter your phone no" style="-fx-prompt-text-fill: white; -fx-text-inner-color: white;" unFocusColor="#f5f2f2" AnchorPane.leftAnchor="511.0">
+               <font>
+                  <Font size="20.0" />
+               </font></JFXTextField>
+            <JFXTextField fx:id="age" focusColor="#7191f2" layoutX="613.0" layoutY="359.0" prefHeight="38.0" prefWidth="109.0" style="-fx-text-inner-color: white;" unFocusColor="#f8f7f7" AnchorPane.leftAnchor="613.0" />
+            <Label layoutX="266.0" layoutY="314.0" prefHeight="49.0" prefWidth="71.0" text="Age" AnchorPane.leftAnchor="451.0" AnchorPane.rightAnchor="840.0">
+               <font>
+                  <Font name="Times New Roman Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="444.0" layoutY="253.0" prefHeight="26.0" prefWidth="78.0" text="Gender">
+               <font>
+                  <Font name="Times New Roman Bold" size="18.0" />
+               </font>
+            </Label>
+            <JFXButton fx:id="B" buttonType="RAISED" layoutX="585.0" layoutY="413.0" onAction="#B" prefHeight="52.0" prefWidth="139.0" styleClass="JFXButton" stylesheets="@page8.css" text="Submit">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </JFXButton>
+            <JFXRadioButton fx:id="male" layoutX="548.0" layoutY="294.0" text="Male" textFill="#fcfafa">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <toggleGroup>
+                  <ToggleGroup fx:id="gend" />
+               </toggleGroup>
+            </JFXRadioButton>
+            <JFXRadioButton fx:id="female" layoutX="677.0" layoutY="294.0" prefHeight="26.0" prefWidth="95.0" text="Female" textFill="#f8f8f8" toggleGroup="$gend">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXRadioButton>
+            <Text fill="WHITE" layoutX="535.0" layoutY="387.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Age :">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Text>
+         </children></AnchorPane>
+      <JFXButton layoutX="2.0" layoutY="1.0" onAction="#A" prefHeight="147.0" prefWidth="212.0" text="BACK">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

@@ -1,0 +1,29 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 7 Nov, 2019, 3:30:30 PM
+    Author     : melro
+*/
+.rootPane{
+    -fx-background-color: black;
+}
+
+#btn :hover{
+    -fx-background-color:  #614252;
+    -fx-background-radius: 10px;
+}
+
+
+.JFXButton{
+    -fx-background-color: #614252;
+    -fx-background-radius: 10px;
+}
+
+.JFXButton:hover{
+    -fx-background-color:  #B59DAA;
+    -fx-background-radius: 10px;
+}
+

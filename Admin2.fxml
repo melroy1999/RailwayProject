@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="773.0" prefWidth="1360.0" style="-fx-background-color: blue;" stylesheets="@page8.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="railwayproject.Admin2Controller">
+   <children>
+      <ImageView fitHeight="782.0" fitWidth="1376.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@VIrK6h.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="470.0" layoutY="116.0" prefHeight="105.0" prefWidth="470.0" text="DATA INSERTION" textFill="#f5eded">
+         <font>
+            <Font name="Andalus" size="58.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="934.0" layoutY="361.0" prefHeight="426.0" prefWidth="0.0" style="-fx-background-color: white;" />
+      <AnchorPane layoutX="447.0" layoutY="237.0" opacity="0.74" prefHeight="534.0" prefWidth="484.0" style="-fx-background-color: white; -fx-background-radius: 50;" />
+      <JFXButton layoutX="523.0" layoutY="274.0" onAction="#B" prefHeight="109.0" prefWidth="326.0" styleClass="JFXButton" text="ADD TRAINS">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="528.0" layoutY="435.0" onAction="#C" prefHeight="109.0" prefWidth="326.0" styleClass="JFXButton" text="ADD ROUTE">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="530.0" layoutY="605.0" onAction="#D" prefHeight="109.0" prefWidth="326.0" styleClass="JFXButton" text="ADD STATION">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="-2.0" layoutY="-3.0" onAction="#A" prefHeight="123.0" prefWidth="196.0" text="&lt;&lt;--" textFill="#fcf8f8">
+         <font>
+            <Font size="51.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
